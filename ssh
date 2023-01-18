@@ -1,0 +1,7 @@
+echo "# consumindo-arquivo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Carlos-Eduardo-Guedes-01/consumindo-arquivo.git
+git push -u origin main
