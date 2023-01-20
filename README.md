@@ -17,6 +17,7 @@ Linux
 
 ´´´
 virtualenv venv
+
 source venv/bin/activate
 ´´´
 
@@ -33,13 +34,13 @@ venv\Script\activate
 pip install -r requeriments.txt
 ```
 
-#Passo 5: Agora faça as instalações das aplicações django
+## Passo 5: Agora faça as instalações das aplicações django
 
 ```
 python manage.py migrate
 ```
 
-Passo 6: Agora podemos fazer o passo final, iniciar o servidor:
+## Passo 6: Agora podemos fazer o passo final, iniciar o servidor:
 
 ```
 python manage.py runserver
