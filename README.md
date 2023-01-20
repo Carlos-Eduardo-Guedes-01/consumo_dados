@@ -4,6 +4,8 @@
 
 ´´´
 mkdir consome
+´´´
+´´´
 cd consome
 ´´´
 ## passo 2: faça clonagem do meu repositório git:
@@ -17,7 +19,8 @@ Linux
 
 ´´´
 virtualenv venv
-
+´´´
+´´´
 source venv/bin/activate
 ´´´
 
@@ -25,6 +28,8 @@ Windows
 
 ´´´
 python -m venv venv
+´´´
+´´´
 venv\Script\activate
 ´´´
 
