@@ -16,8 +16,7 @@ class ClientesViewSet(viewsets.ModelViewSet):
         arquivo=request.FILES.get('nome_arquivo')
         scores = pd.read_excel(arquivo,engine="openpyxl")
         response='Carregado'
-        print('create')
-        print(scores)
+        
         for i in range (len(scores)):
             d=datetime.datetime.fromtimestamp(scores['nascimento'][i]/1e3)
             c=Cliente(nome=scores['nome'][i],sobrenome=scores['sobrenome'][i],sexo=scores['sexo'][i],altura=scores['altura'][i],peso=scores['peso'][i],nascimento=d,bairro=scores['bairro'][i],cidade=scores['cidade'][i],estado=scores['estado'][i],numero=scores['numero'][i],codigo=scores['id'][i],nome_arquivo=arquivo)
