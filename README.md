@@ -12,7 +12,7 @@ cd consome
 ## passo 2: faça clonagem do meu repositório git:
 
 ```
-git clone https://github.com/Carlos-Eduardo-Guedes-01/consumindo-arquivo
+git clone https://github.com/Carlos-Eduardo-Guedes-01/consumo_dados
 ```
 
 ## passo 3: crie e ative seu ambiente virtual:
